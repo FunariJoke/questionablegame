@@ -1,0 +1,47 @@
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    color: rebeccapurple;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    background-color: tan;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+p {
+    text-align: center;
+    color: purple;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    color: black;
+    width: 75%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-width: 0px;
+}
+
+#scores {
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    background-color: tan;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#selections {
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    background-color: tan;
+    padding: 5px;
+    border-radius: 25px;
+}
