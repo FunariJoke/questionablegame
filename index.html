@@ -7,33 +7,75 @@
     <title>The Question Game</title>
 </head>
 <body>
-    var swag = { 
-        q: "The Sky is Blue.", 
-        a: false,
+    <h1>The Question Game</h1>
+    <p>Use the T and F keys to input your answer as True or False <br>
+    </p>
 
-        q: "Fish can walk.", 
-        a: true,
+    <div id="container">
+        <p id="questions"></p>
+    </div>
 
-        q: "", 
-        a: false,
+    <script>
 
-        q: "is the sky blue", 
-        a: false,
+        
+        var qna = [ 
+        {q: "The Sky is Blue.", 
+        a: 'f'},
 
-        q: "is the sky blue", 
-        a: false,
+        {q: "Fish can walk.", 
+        a: 'f'},
 
-        q: "is the sky blue", 
-        a: false,
+        {q: "Dogs are mammals.", 
+        a: 't'},
+        
+        {q: "The Mariana Trench is 2,550 km deep.", 
+        a: 't'},
 
-        q: "is the sky blue", 
-        a: false,
+        {q: "Pinguinus impennis is extinct.", 
+        a: 't'},
 
-        q: "is the sky blue", 
-        a: false,
+        {q: "Texas is the largest US state.", 
+        a: 'f'},
+        
+        {q: "Its possible but rare for the moon to have a purple tint.", 
+        a: 't'},
+        
+        {q: "I am inside of your walls.", 
+        a: 'f'},
+        
+        {q: "You can not outrun me.", 
+        a: 'f'},
+        
+        {q: "Tupac was shot on November 32nd, 1994.", 
+        a: 'f'}
+    ]
 
-        q: "is the sky blue", 
-        a: false,
+    var questions = document.getElementById("questions")
+
+    var question = qna[0].q 
+    
+    var index = 0
+    
+    document.onkeyup = function(event) {
+    
+        console.log(event.key)
+
+        var playerselection = event.key
+        
+        if ((playerselection === "t") || (playerselection === "f")) {
+            var question = qna[index].q 
+            questions.textContent = question
+            if (playselection === qna[index].a) {
+                
+            }
+            index++
+        }
+        else {
+            alert("invalid answer. Use the T and F keys.")
+        }
     }
+    
+    
+    </script>
 </body>
 </html>
