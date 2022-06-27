@@ -4,7 +4,7 @@
 
 ### Instructions
 
-**warning: this game contains intense violence, pornographic materials, videos of people getting brutally decapitated, and 4 lifelong friends who compete to embarrass each other.**
+**Warning: The following program contains scenes of graphic stupidity among four lifelong friends who compete to embarrass each other.**
 
 In order to play this game, you must press F or T in order to respond to the statements shown on screen. Determine whether they are true or false, and answer so with the corresponding keybind. 
 
